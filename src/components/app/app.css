@@ -1,0 +1,32 @@
+.app {
+  background-color: rgba(181, 236, 231, 0.69);
+  height: 100vh;
+}
+
+.app_container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.app__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app__link {
+  cursor: pointer;
+  width: 400px;
+  height: 80px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 20px 0;
+  color: #ffffff;
+  background-color: #A0BFFA;
+  font-size: 38px;
+  line-height: 38px;
+  margin-top: 200px;
+}
